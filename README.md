@@ -3,12 +3,33 @@ Cheat sheet for command lines I will never remember
 
 ## find
 
-find \<where\> \<what\>
+find WHERE WHAT
 
-find . -name '*.js' -not -path './node_modules/*'
+`find . -name "*.js" ! -path "./node_modules/*"`
+
+`find . -regex ".*\\.\\(html\\|js\\)"`
+
+*Note the backslash before group brackets and alternation operator. Use `-regextype posix-extended` to get rid of the backslashes*
+
+### options
+
+-maxdepth LEVELS -mindepth LEVELS
+
+-type [fd]
+
+-iname NAME : case insensitive name
+
+-size [+-]SIZE[kMG]
 
 ## grep
 
-grep \<what\> \<where\>
+grep SEARCH IN_FILES
 
-grep picto.png build/*
+`grep searchString app/* build/*`
+
+### options
+
+-r : recursive
+
+-l : only list files
+
