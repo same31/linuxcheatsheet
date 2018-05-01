@@ -41,6 +41,18 @@ Extracts the first column of output
 
 ## tac
 
-Reverse output (reverse cat)
+Reverse output (reverse cat) of a file or use a pipe
 
 or `tail -r`
+
+## xargs
+
+Inline the output of a command
+
+`ls | xargs`
+
+## sed
+
+String substitution (global) in file or use a pipe
+
+`sed 's/hello/world/' <file>`
