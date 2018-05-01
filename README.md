@@ -47,7 +47,7 @@ or `tail -r`
 
 ## xargs
 
-Inline the output of a command
+Inlines the output of a command
 
 `ls | xargs`
 
