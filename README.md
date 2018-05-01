@@ -33,3 +33,14 @@ grep SEARCH IN_FILES
 
 -l : only list files
 
+## awk
+
+Extracts the first column of output
+
+`awk '{print $1}'`
+
+## tac
+
+Reverse output (reverse cat)
+
+or `tail -r`
