@@ -56,3 +56,9 @@ Inlines the output of a command
 String substitution (global) in file or use a pipe
 
 `sed 's/hello/world/' <file>`
+
+## ln
+
+Create a symbolic link
+
+`ln -s /path/to/fileName linkName`
