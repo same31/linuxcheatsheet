@@ -57,7 +57,7 @@ String substitution (global) in file or use a pipe
 
 `sed 's/hello/world/' <file>`
 
-## ln
+## ln
 
 Create a symbolic link
 
