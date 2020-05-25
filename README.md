@@ -62,3 +62,9 @@ String substitution (global) in file or use a pipe
 Create a symbolic link
 
 `ln -s /path/to/fileName linkName`
+
+## du
+
+Disk usage in a directory
+
+`du -shc * | sort -h`
