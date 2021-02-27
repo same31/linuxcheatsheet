@@ -126,3 +126,9 @@ Search and replace the last search
 Delete all occurences of the last search
 
 `%s///`
+
+### convert / ffmpeg
+
+`convert img.gif -coalesce img_%03d.png`
+
+`ffmpeg -framerate 6 -i img_%03d.png -pix_fmt yuva420p output.webm`
