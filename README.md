@@ -103,6 +103,10 @@ Disk usage in a directory
 
 `while read line; do echo "$line"; done;`
 
+## for
+
+`for x in {a..z}; do echo "$x"; done`
+
 ## vim
 
 Open result of a command in a buffer
