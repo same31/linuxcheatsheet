@@ -79,7 +79,7 @@ Inlines the output of a command (defaults utility to echo)
 
 -P2 : Parallel mode (2 at a time)
 
--p : Prompts efore executing every command
+-p : Prompts before executing every command
 
 ## sed
 
